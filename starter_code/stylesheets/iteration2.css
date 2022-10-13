@@ -1,0 +1,148 @@
+/*Iteration2.css
+| Small Screens (width > 768px and width < 1024px)*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+* {
+margin: 0;
+padding: 0;
+}
+header{
+display: flex;
+flex-direction: row;
+width: 100vw;
+background: #540B51 url(../images/background-singup.png) no-repeat left 81px;
+background-size: contain;
+color: #fff;
+font-family: sans-serif;
+font-size: 10px;
+overflow-x: hidden;
+}
+h1{
+display: flex;
+justify-content: left;
+align-content: flex-start;
+text-align: left;
+width: 400px;
+}
+.header-text{
+font-size: 18px;
+width: 250px;
+}
+.header-span{
+font-size: 15px;
+}
+.companies-img {
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+width: 800;
+margin: 0 auto;
+}
+.airbnb {
+height: 40px;
+width: 35;
+}
+.nasa {
+height: 40px;
+width: 40;
+margin-left: 18px;
+}
+.uber {
+height: 35px;
+width: 35;
+margin-left: 18px;
+}
+.target {
+height: 40px;
+width: 40px;
+margin-left: 18px;
+}
+.newyorktimes {
+height: 42px;
+width: 40;
+margin-left: 18px;
+}
+.spotify {
+height: 36px;
+width: 40;
+margin-left: 18px;
+}
+.connectedness {
+display: flex;
+height: 500px;
+width: 800px;
+}
+.connectedness-mobile{
+display: none;  
+}
+.team p{
+display: flex;
+justify-content: center;
+margin-top: 15px ;
+width: 700px;
+}
+.flexibility-mobile {
+display: none;
+}
+.flexibility{
+display: flex;
+height: 500px;
+width: 800px;
+}
+.speed {
+display: flex;
+height: 500px;
+width: 800px;
+}
+.speed-mobile{
+display: none;
+}
+.slack {
+display: flex;
+align-items: center;
+flex-direction: column;
+background-size: 400px;
+}
+.slack-button {
+display: flex;
+flex-direction: row;
+padding-top: 20px;
+}
+.meet-button {
+padding: 9px 50px;
+font-size: 16px;
+}
+.talk-button {
+padding: 7px 50px;
+font-size: 16px;
+}
+.slack-ul{
+display: flex;
+width: 900;
+flex-direction: row;
+align-items: stretch;
+justify-content:space-evenly;
+}
+.slack li p{
+padding-left: 20px;
+width: 180px;
+}
+.slack span {
+font-size: 40px;
+}
+.extra-info-ul {
+display: flex;
+flex-direction: row;
+font-size: 12px;
+font-weight: 700;
+}
+.socialmedia-ul {
+display: flex;
+justify-content: flex-start;
+list-style-type: none;
+}
+.socialmedia-ul li{
+padding-left: 15px;
+}
+}
